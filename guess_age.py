@@ -4,7 +4,7 @@ print('What is Your name ?')
 
 myname = input()
 
-print(myname + ' , what a Lovely name!')
+print(myname + ' , what a Lovely name! , You have ' + str(len(myname)) + ' letters in your name.')
 
 print(myname + ' , Tell me your age !')
 
