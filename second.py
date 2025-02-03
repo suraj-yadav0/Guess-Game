@@ -1,3 +1,6 @@
-name = input("What is your name? ")
+num = int(input("Enter a number: "))
 
-print("Hello, " + name)
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
