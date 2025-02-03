@@ -1,5 +1,8 @@
-x = range(2,45)
+list = ["Suraj","Sanskriti","Baigan"]
 
-for elem in x:
-    if elem % 7 == 0:
-        print(elem)
+name = input("Enter your name Sir: ")
+
+if name in list:
+    print("Welcome to the party")
+else:
+    print("Sorry you are not invited")
