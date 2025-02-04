@@ -1,8 +1,9 @@
-str = input("Enter a String:")
+a = "Ram is Shyam"
 
 
-def is_palindrome(str):
-    return str == str[::-1]
+if a == a[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
 
-print(is_palindrome(str))
 
