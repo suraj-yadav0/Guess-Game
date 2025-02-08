@@ -10,5 +10,5 @@ page = requests.get(url)
 
 soup =  BeautifulSoup(page.text,'html')
 
-print(soup.prettify())
+print(soup.find('p',class_ = 'lead').text.strip())
 
