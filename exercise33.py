@@ -56,11 +56,11 @@ Birthday = {
 print("Welcome to the Birthday Dictionaries")
 
 # Method 1: Using format() correctly
-print("We know the birthdays of: {}, {}, {}, {}".format(*Birthday.keys()))
-
-ques = input("Whose Birthday You want to Know : ")
-
-print("Birthday of " + ques + " is on " + str(Birthday[ques]))
+# print("We know the birthdays of: {}, {}, {}, {}".format(*Birthday.keys()))
+#
+# ques = input("Whose Birthday You want to Know : ")
+#
+# print("Birthday of " + ques + " is on " + str(Birthday[ques]))
 
 
 #
